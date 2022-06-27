@@ -22,12 +22,12 @@ Python 3.6
 PyTorch 0.4.1 or 1.7.0
 NumPy 1.15.3
 gym 0.10.8
+Pillow 5.3.0
+pyglet 1.3.2 (In test.py,it is available to use 'env.render(mode = 'rgb_array')')
 Roboschool 1.0.46 => 
 
 If error occurs as "libpcre16.so.3: cannot open shared object file: No such file or directory", then
 install libpcre3-dev as "sudo apt-get install libpcre3-dev"
-
-Pillow 5.3.0
 ```
 
 
