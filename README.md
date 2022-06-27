@@ -19,12 +19,17 @@ PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) 
 Trained and tested on:
 ```
 Python 3.6
-PyTorch 0.4.1
+PyTorch 0.4.1 or 1.7.0
 NumPy 1.15.3
 gym 0.10.8
-Roboschool 1.0.46
+Roboschool 1.0.46 => 
+
+If error occurs as "libpcre16.so.3: cannot open shared object file: No such file or directory", then
+install libpcre3-dev as "sudo apt-get install libpcre3-dev"
+
 Pillow 5.3.0
 ```
+
 
 ## Results
 
